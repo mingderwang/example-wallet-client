@@ -2760,3 +2760,87 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX Daemon Server] - 2025-01-18T14:27:35.418Z - Done responding to the client project-graph
 [NX Daemon Server] - 2025-01-18T14:27:35.418Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 8.
 [NX Daemon Server] - 2025-01-18T14:27:35.427Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:52:36.457Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2025-01-18T14:52:36.466Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:52:36.467Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:52:36.467Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-18T14:52:36.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:52:36.469Z - Time taken for 'changed-projects' 0.8676060000434518ms
+[NX Daemon Server] - 2025-01-18T14:52:36.710Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:52:36.711Z - [REQUEST]: package.json
+[NX Daemon Server] - 2025-01-18T14:52:36.711Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:52:37.314Z - Time taken for 'hash changed files from watcher' 1.3345109997317195ms
+[NX Daemon Server] - 2025-01-18T14:52:38.148Z - Time taken for 'build-project-configs' 1383.9711640002206ms
+[NX Daemon Server] - 2025-01-18T14:52:38.414Z - Time taken for '@nx/vite/plugin:createDependencies' 288.8918540002778ms
+[NX Daemon Server] - 2025-01-18T14:52:39.094Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:52:39.515Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-18T14:52:39.516Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-01-18T14:52:39.516Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-01-18T14:52:39.517Z - Time taken for 'total execution time for createProjectGraph()' 1217.0339859998785ms
+[NX Daemon Server] - 2025-01-18T14:52:39.745Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:52:39.749Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:52:39.750Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:52:39.750Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:52:39.752Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:52:39.752Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:52:39.756Z - Time taken for 'total for creating and serializing project graph' 0.590747999958694ms
+[NX Daemon Server] - 2025-01-18T14:52:39.765Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:52:39.765Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 13.
+[NX Daemon Server] - 2025-01-18T14:52:39.769Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:52:39.771Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:52:39.773Z - Time taken for 'total for creating and serializing project graph' 1.5030320002697408ms
+[NX Daemon Server] - 2025-01-18T14:52:39.777Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:52:39.778Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 7.
+[NX Daemon Server] - 2025-01-18T14:52:39.783Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:53:26.154Z - [WATCHER]: README.md was modified
+[NX Daemon Server] - 2025-01-18T14:53:26.157Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:53:26.158Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:53:26.158Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-18T14:53:26.158Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:53:26.159Z - Time taken for 'changed-projects' 0.05384000018239021ms
+[NX Daemon Server] - 2025-01-18T14:53:26.257Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:53:26.257Z - [REQUEST]: README.md
+[NX Daemon Server] - 2025-01-18T14:53:26.257Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:53:26.323Z - Time taken for 'hash changed files from watcher' 0.2214279999025166ms
+[NX Daemon Server] - 2025-01-18T14:53:26.718Z - Time taken for 'build-project-configs' 428.54079800006ms
+[NX Daemon Server] - 2025-01-18T14:53:26.733Z - Time taken for '@nx/vite/plugin:createDependencies' 21.772082000039518ms
+[NX Daemon Server] - 2025-01-18T14:53:26.866Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-18T14:53:26.866Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-01-18T14:53:26.867Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-01-18T14:53:26.867Z - Time taken for 'total execution time for createProjectGraph()' 147.7511180001311ms
+[NX Daemon Server] - 2025-01-18T14:53:27.797Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:28.568Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:53:28.578Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:28.579Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:53:28.580Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:28.581Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:53:28.582Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:53:28.589Z - Time taken for 'total for creating and serializing project graph' 0.7487440002150834ms
+[NX Daemon Server] - 2025-01-18T14:53:28.613Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:53:28.613Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 31.
+[NX Daemon Server] - 2025-01-18T14:53:28.765Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:53:28.766Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:53:28.772Z - Time taken for 'total for creating and serializing project graph' 0.8107639998197556ms
+[NX Daemon Server] - 2025-01-18T14:53:28.783Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:53:28.784Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 18.
+[NX Daemon Server] - 2025-01-18T14:53:28.797Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:53:54.314Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:53:54.316Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:54.317Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:53:54.317Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (sources)
+[NX Daemon Server] - 2025-01-18T14:53:54.317Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (outputs)
+[NX Daemon Server] - 2025-01-18T14:53:54.387Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2025-01-18T14:53:57.799Z - Started listening on: /var/folders/05/km912pp51gv423vmp3853h6m0000gp/T/8e468c04acd0acffb6d3/d.sock
+[NX Daemon Server] - 2025-01-18T14:53:57.808Z - [WATCHER]: Subscribed to changes within: /Users/admin/Downloads/wmaibkzbpm.github (native)
+[NX Daemon Server] - 2025-01-18T14:53:57.816Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:57.821Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:53:57.824Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:53:57.827Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:54:01.864Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 4027.9972389996983ms
+[NX Daemon Server] - 2025-01-18T14:54:02.245Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/package-json' 4409.821188999806ms
+[NX Daemon Server] - 2025-01-18T14:54:02.729Z - Time taken for 'loadDefaultNxPlugins' 4894.168122000061ms
+[NX Daemon Server] - 2025-01-18T14:54:02.908Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:54:02.911Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:54:02.912Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (sources)
+[NX Daemon Server] - 2025-01-18T14:54:02.912Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (outputs)
+[NX Daemon Server] - 2025-01-18T14:54:02.942Z - Server stopped because: "LOCK_FILES_CHANGED"
