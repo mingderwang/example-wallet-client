@@ -1,0 +1,93 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.3.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "example-wallet-client": [
+        {
+          "file": ".gitignore",
+          "hash": "16023894880854878455"
+        },
+        {
+          "file": "README.md",
+          "hash": "9315893962774025600"
+        },
+        {
+          "file": "bun.lockb",
+          "hash": "13097741729805248814"
+        },
+        {
+          "file": "index.html",
+          "hash": "12185959149130710962"
+        },
+        {
+          "file": "index.tsx",
+          "hash": "18427616921306793558",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:viem"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "7266882603462254697"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2622161005452173122"
+        },
+        {
+          "file": "package.json",
+          "hash": "9090289511322138090",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/ui",
+            "npm:nx",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vitest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:viem"
+          ]
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "6748319860709044850"
+        },
+        {
+          "file": "tsconfig.node.json",
+          "hash": "9492743665887090209"
+        },
+        {
+          "file": "vite.config.ts",
+          "hash": "13856581739243307789",
+          "deps": [
+            "npm:@vitejs/plugin-react",
+            "npm:vite"
+          ]
+        }
+      ]
+    }
+  }
+}
