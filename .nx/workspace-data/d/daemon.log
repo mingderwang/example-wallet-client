@@ -2441,3 +2441,322 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX Daemon Server] - 2025-01-18T14:08:12.738Z - Done responding to the client null
 [NX Daemon Server] - 2025-01-18T14:08:12.738Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX Daemon Server] - 2025-01-18T14:08:12.740Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:19:00.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:19:00.201Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:19:00.203Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:19:00.204Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (sources)
+[NX Daemon Server] - 2025-01-18T14:19:00.207Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (outputs)
+[NX Daemon Server] - 2025-01-18T14:19:00.212Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2025-01-18T14:21:46.981Z - Started listening on: /var/folders/05/km912pp51gv423vmp3853h6m0000gp/T/8e468c04acd0acffb6d3/d.sock
+[NX Daemon Server] - 2025-01-18T14:21:47.259Z - [WATCHER]: Subscribed to changes within: /Users/admin/Downloads/wmaibkzbpm.github (native)
+[NX Daemon Server] - 2025-01-18T14:21:47.268Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:21:47.271Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:21:47.299Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:21:47.302Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:21:55.065Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 7751.505708000157ms
+[NX Daemon Server] - 2025-01-18T14:21:55.491Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js' 8182.998643999919ms
+[NX Daemon Server] - 2025-01-18T14:21:55.834Z - Time taken for 'loadDefaultNxPlugins' 8525.840063000098ms
+[NX Daemon Server] - 2025-01-18T14:21:57.303Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:21:57.303Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:21:57.303Z - [REQUEST]: 
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:21:57.367Z - Time taken for 'loadSpecifiedNxPlugins' 9997.496080999961ms
+[NX Daemon Server] - 2025-01-18T14:22:04.947Z - Time taken for 'build-project-configs' 7395.461879000068ms
+[NX Daemon Server] - 2025-01-18T14:22:04.959Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:22:04.961Z - Time taken for 'total execution time for createProjectGraph()' 41.559400000143796ms
+[NX Daemon Server] - 2025-01-18T14:22:04.962Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:22:04.962Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 17657. Response time: 3.
+[NX Daemon Server] - 2025-01-18T14:22:04.965Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:22:04.966Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:22:04.969Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:22:04.969Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2025-01-18T14:22:05.184Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:24:56.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:24:56.277Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-01-18T14:24:56.281Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:24:56.282Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:24:56.282Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-18T14:24:56.282Z - Time taken for 'changed-projects' 0.2251199996098876ms
+[NX Daemon Server] - 2025-01-18T14:24:56.384Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:24:56.384Z - [REQUEST]: .setting.json.swp
+[NX Daemon Server] - 2025-01-18T14:24:56.384Z - [REQUEST]: .setting.json.swx
+[NX Daemon Server] - 2025-01-18T14:24:56.402Z - Time taken for 'hash changed files from watcher' 0.8353319996967912ms
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:24:56.511Z - Time taken for 'build-project-configs' 111.677609000355ms
+[NX Daemon Server] - 2025-01-18T14:24:56.518Z - Time taken for '@nx/vite/plugin:createDependencies' 10.120064999908209ms
+[NX Daemon Server] - 2025-01-18T14:24:57.507Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:24:57.749Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:24:57.755Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:24:57.756Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:24:57.757Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:24:57.758Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:24:58.962Z - [WATCHER]: setting.json was created or restored
+[NX Daemon Server] - 2025-01-18T14:24:58.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:24:59.013Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-01-18T14:24:59.014Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:24:59.063Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:24:59.064Z - [REQUEST]: setting.json
+[NX Daemon Server] - 2025-01-18T14:24:59.064Z - [REQUEST]: .setting.json.swp
+[NX Daemon Server] - 2025-01-18T14:24:59.120Z - Time taken for 'hash changed files from watcher' 0.5873420001007617ms
+[NX Daemon Server] - 2025-01-18T14:24:59.369Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:24:59.372Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:24:59.372Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1611. Response time: 3.
+[NX Daemon Server] - 2025-01-18T14:24:59.372Z - Time taken for 'total execution time for createProjectGraph()' 2869.095794000197ms
+[NX Daemon Server] - 2025-01-18T14:24:59.375Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:24:59.376Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:24:59.377Z - [REQUEST]: setting.json
+[NX Daemon Server] - 2025-01-18T14:24:59.377Z - [REQUEST]: .setting.json.swp
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:24:59.427Z - Time taken for 'hash changed files from watcher' 0.16455999994650483ms
+[NX Daemon Server] - 2025-01-18T14:24:59.558Z - Time taken for 'build-project-configs' 26.994791000150144ms
+[NX Daemon Server] - 2025-01-18T14:24:59.569Z - Time taken for '@nx/vite/plugin:createDependencies' 124.23036299971864ms
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:24:59.584Z - Time taken for 'build-project-configs' 173.06763800000772ms
+[NX Daemon Server] - 2025-01-18T14:24:59.585Z - Time taken for '@nx/vite/plugin:createDependencies' 1.1643209997564554ms
+[NX Daemon Server] - 2025-01-18T14:24:59.611Z - Time taken for 'total execution time for createProjectGraph()' 31.195576999802142ms
+[NX Daemon Server] - 2025-01-18T14:24:59.652Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:24:59.652Z - Time taken for 'total execution time for createProjectGraph()' 71.47683899989352ms
+[NX Daemon Server] - 2025-01-18T14:24:59.653Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:24:59.653Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 276. Response time: 2.
+[NX Daemon Server] - 2025-01-18T14:24:59.654Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:10.997Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:25:11.014Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-01-18T14:25:11.015Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:11.015Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:11.015Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-01-18T14:25:11.016Z - Time taken for 'changed-projects' 0.07676000008359551ms
+[NX Daemon Server] - 2025-01-18T14:25:11.118Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:25:11.118Z - [REQUEST]: .settings.json.swp
+[NX Daemon Server] - 2025-01-18T14:25:11.118Z - [REQUEST]: .settings.json.swx
+[NX Daemon Server] - 2025-01-18T14:25:11.138Z - Time taken for 'hash changed files from watcher' 0.27778200013563037ms
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:25:11.183Z - Time taken for 'build-project-configs' 59.162020000163466ms
+[NX Daemon Server] - 2025-01-18T14:25:11.184Z - Time taken for '@nx/vite/plugin:createDependencies' 1.5037930002436042ms
+[NX Daemon Server] - 2025-01-18T14:25:11.196Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:11.197Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:11.197Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-18T14:25:11.197Z - Time taken for 'total execution time for createProjectGraph()' 15.495232000015676ms
+[NX Daemon Server] - 2025-01-18T14:25:12.385Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:12.693Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:12.696Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:12.697Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:12.698Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:12.709Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:12.711Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:12.763Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:12.763Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 52.
+[NX Daemon Server] - 2025-01-18T14:25:12.832Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:12.832Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:12.835Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:12.835Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2025-01-18T14:25:12.931Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:32.682Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-01-18T14:25:32.684Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:32.685Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:32.685Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-01-18T14:25:32.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:25:32.686Z - Time taken for 'changed-projects' 0.05770700005814433ms
+[NX Daemon Server] - 2025-01-18T14:25:32.784Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:25:32.785Z - [REQUEST]: settings.json
+[NX Daemon Server] - 2025-01-18T14:25:32.785Z - [REQUEST]: .settings.json.swp
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:25:32.934Z - Time taken for 'hash changed files from watcher' 0.3056000000797212ms
+[NX Daemon Server] - 2025-01-18T14:25:32.935Z - Time taken for '@nx/vite/plugin:createDependencies' 2.6765159997157753ms
+[NX Daemon Server] - 2025-01-18T14:25:32.959Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:32.961Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:32.961Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2025-01-18T14:25:32.964Z - Time taken for 'total execution time for createProjectGraph()' 30.662491000257432ms
+[NX Daemon Server] - 2025-01-18T14:25:34.077Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:34.336Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:25:34.338Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:34.339Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:25:34.341Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:34.343Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:34.344Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:34.347Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:34.347Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-01-18T14:25:34.351Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:34.352Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:34.353Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:34.354Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-01-18T14:25:34.391Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:36.735Z - [WATCHER]: setting.json was deleted
+[NX Daemon Server] - 2025-01-18T14:25:36.736Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:36.820Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2025-01-18T14:25:36.820Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 84.
+[NX Daemon Server] - 2025-01-18T14:25:36.821Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-18T14:25:36.821Z - Time taken for 'changed-projects' 0.13527299975976348ms
+[NX Daemon Server] - 2025-01-18T14:25:36.876Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:25:36.876Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:25:36.876Z - [REQUEST]: setting.json
+/bin/sh: bun: command not found
+[NX Daemon Server] - 2025-01-18T14:25:36.972Z - Time taken for 'hash changed files from watcher' 0.06902100006118417ms
+[NX Daemon Server] - 2025-01-18T14:25:36.974Z - Time taken for 'total execution time for createProjectGraph()' 5.541479999665171ms
+[NX Daemon Server] - 2025-01-18T14:25:37.946Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:38.409Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:25:38.508Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:38.508Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:25:38.509Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:25:38.511Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:38.514Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:38.517Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:38.517Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 3.
+[NX Daemon Server] - 2025-01-18T14:25:38.538Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:25:38.539Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - bun.lockb: Error: Command failed: bun /Users/admin/Downloads/wmaibkzbpm.github/bun.lockb
+  /bin/sh: bun: command not found
+  
+      at checkExecSyncError (node:child_process:928:11)
+      at execSync (node:child_process:1000:15)
+      at node:electron/js2c/node_init:2:13035
+      at exports.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/js/index.js:35:44)
+      at /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at LoadedNxPlugin.createNodes (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:17:76)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:34:34)
+[NX Daemon Server] - 2025-01-18T14:25:38.543Z - Done responding to the client null
+[NX Daemon Server] - 2025-01-18T14:25:38.543Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
+[NX Daemon Server] - 2025-01-18T14:25:38.546Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:26:20.355Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-18T14:26:20.356Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-18T14:26:20.357Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2025-01-18T14:26:20.357Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:26:20.395Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (sources)
+[NX Daemon Server] - 2025-01-18T14:26:20.396Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-18T14:26:20.397Z - [WATCHER]: Stopping the watcher for /Users/admin/Downloads/wmaibkzbpm.github (outputs)
+[NX Daemon Server] - 2025-01-18T14:26:20.456Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2025-01-18T14:27:26.031Z - Started listening on: /var/folders/05/km912pp51gv423vmp3853h6m0000gp/T/8e468c04acd0acffb6d3/d.sock
+[NX Daemon Server] - 2025-01-18T14:27:26.043Z - [WATCHER]: Subscribed to changes within: /Users/admin/Downloads/wmaibkzbpm.github (native)
+[NX Daemon Server] - 2025-01-18T14:27:26.052Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:27:26.056Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-18T14:27:26.073Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-18T14:27:26.116Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:27:31.920Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 5763.231302000117ms
+[NX Daemon Server] - 2025-01-18T14:27:32.337Z - Time taken for 'Load Nx Plugin: /Users/admin/Downloads/wmaibkzbpm.github/node_modules/nx/src/plugins/package-json' 6182.372833999805ms
+[NX Daemon Server] - 2025-01-18T14:27:32.463Z - Time taken for 'loadDefaultNxPlugins' 6322.179719000123ms
+[NX Daemon Server] - 2025-01-18T14:27:33.217Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-18T14:27:33.217Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:27:33.217Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-18T14:27:33.297Z - Time taken for 'loadSpecifiedNxPlugins' 7078.579307000153ms
+[NX Daemon Server] - 2025-01-18T14:27:35.170Z - Time taken for 'build-project-configs' 1869.5542609998956ms
+[NX Daemon Server] - 2025-01-18T14:27:35.182Z - Time taken for '@nx/vite/plugin:createDependencies' 18.99606899963692ms
+[NX Daemon Server] - 2025-01-18T14:27:35.388Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-18T14:27:35.392Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:27:35.394Z - Time taken for 'total for creating and serializing project graph' 9275.639587999787ms
+[NX Daemon Server] - 2025-01-18T14:27:35.399Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:27:35.400Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 9276. Response time: 8.
+[NX Daemon Server] - 2025-01-18T14:27:35.409Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-01-18T14:27:35.410Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-01-18T14:27:35.412Z - Time taken for 'total for creating and serializing project graph' 0.65775700006634ms
+[NX Daemon Server] - 2025-01-18T14:27:35.418Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-01-18T14:27:35.418Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2025-01-18T14:27:35.427Z - Established a connection. Number of open connections: 2

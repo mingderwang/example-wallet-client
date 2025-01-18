@@ -16,12 +16,11 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [],
     "projectFileMap": {
       "example-wallet-client": [
         {
           "file": ".gitignore",
-          "hash": "16023894880854878455"
+          "hash": "12497534368567063105"
         },
         {
           "file": "README.md",
@@ -29,7 +28,7 @@
         },
         {
           "file": "bun.lockb",
-          "hash": "13097741729805248814"
+          "hash": "5948090558008478402"
         },
         {
           "file": "index.html",
@@ -54,7 +53,7 @@
         },
         {
           "file": "package.json",
-          "hash": "9090289511322138090",
+          "hash": "16235488009015088227",
           "deps": [
             "npm:@nx/vite",
             "npm:@nx/web",
@@ -66,10 +65,16 @@
             "npm:typescript",
             "npm:vite",
             "npm:vitest",
+            "npm:@nx-bun/nx",
+            "npm:@nx-bun/task-worker-runner",
             "npm:react",
             "npm:react-dom",
             "npm:viem"
           ]
+        },
+        {
+          "file": "settings.json",
+          "hash": "71765705763400467"
         },
         {
           "file": "tsconfig.json",
@@ -88,6 +93,7 @@
           ]
         }
       ]
-    }
+    },
+    "nonProjectFiles": []
   }
 }

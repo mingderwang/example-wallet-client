@@ -1429,6 +1429,24 @@
         "hash": "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="
       }
     },
+    "npm:@nx-bun/nx": {
+      "type": "npm",
+      "name": "npm:@nx-bun/nx",
+      "data": {
+        "version": "1.2.0",
+        "packageName": "@nx-bun/nx",
+        "hash": "sha512-0xYsg6qfQudc1NOYvEKnTDm4XM2C8MJRDtIsp7cpUWPeWzGUi4YRIIgAenjd4ZLz+Hsa+Q8unMAqdX5zHGwRlQ=="
+      }
+    },
+    "npm:@nx-bun/task-worker-runner": {
+      "type": "npm",
+      "name": "npm:@nx-bun/task-worker-runner",
+      "data": {
+        "version": "0.0.4",
+        "packageName": "@nx-bun/task-worker-runner",
+        "hash": "sha512-Ln3wZehakmL2AKdG+3JaAce9ZsxJaRoQl5Ly/ss44IpqDyRKY1iQC0ItNMH1A+HgLdUMihPPuhcqJ/c0VCvL3Q=="
+      }
+    },
     "npm:@nx/devkit": {
       "type": "npm",
       "name": "npm:@nx/devkit",
@@ -5087,6 +5105,16 @@
         "source": "example-wallet-client",
         "target": "npm:vitest",
         "type": "static"
+      },
+      {
+        "source": "example-wallet-client",
+        "target": "npm:@nx-bun/nx",
+        "type": "static"
+      },
+      {
+        "source": "example-wallet-client",
+        "target": "npm:@nx-bun/task-worker-runner",
+        "type": "static"
       }
     ],
     "npm:@ampproject/remapping": [
@@ -6784,6 +6812,20 @@
       {
         "source": "npm:@nodelib/fs.walk",
         "target": "npm:@nodelib/fs.scandir",
+        "type": "static"
+      }
+    ],
+    "npm:@nx-bun/nx": [
+      {
+        "source": "npm:@nx-bun/nx",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@nx-bun/task-worker-runner": [
+      {
+        "source": "npm:@nx-bun/task-worker-runner",
+        "target": "npm:@swc/helpers",
         "type": "static"
       }
     ],
